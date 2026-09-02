@@ -5,13 +5,11 @@
   <img alt="Bobby Huang" src="https://capsule-render.vercel.app/api?type=waving&height=180&color=0:e4e3dc,100:7fa0d8&text=Bobby%20Huang&fontColor=1a1c1a&fontSize=44&fontAlignY=38&desc=I%20build%20open-source%20tools%20and%20ship%20them%20far%20enough%20that%20somebody%20else%20can%20use%20them.&descAlignY=58&descSize=15&animation=fadeIn">
 </picture>
 
-[![Website](https://img.shields.io/badge/bobbyhuang.dev-2c4b8c?style=for-the-badge&logo=astro&logoColor=white)](https://bobbyhuang.dev)
+[![Website](https://img.shields.io/badge/bobbyhuang.dev-2c4b8c?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiI+PHN0eWxlPi5tYXJrLXRpbGUgeyBmaWxsOiAjZWRlZWVhOyBzdHJva2U6ICNkMGQxY2Q7IH0gICAgLm1hcmstcnVsZSB7IGZpbGw6ICMyYzRiOGM7IH0gICAgLm1hcmstYiB7IGZpbGw6ICMxYTFjMWE7IH0gIDwvc3R5bGU+PHJlY3QgY2xhc3M9Im1hcmstdGlsZSIgeD0iLjUiIHk9Ii41IiB3aWR0aD0iMzEiIGhlaWdodD0iMzEiIHJ4PSIyLjUiIC8+PHJlY3QgY2xhc3M9Im1hcmstcnVsZSIgeD0iNiIgeT0iMSIgd2lkdGg9IjIiIGhlaWdodD0iMzAiIC8+PHBhdGggY2xhc3M9Im1hcmstYiIgZD0iTTIwLjU0IDI4UTE5LjQzIDI4IDE4LjYxIDI3LjU3UTE3Ljc4IDI3LjE1IDE3LjI2IDI2LjM0UTE2LjczIDI1LjUzIDE2LjUgMjQuNEwxNS45NyAyM0wxNi42NiAyMi4xUTE2LjgyIDIyLjY5IDE3LjE0IDIzLjE0UTE3LjQ2IDIzLjU5IDE3Ljk0IDIzLjg0UTE4LjQxIDI0LjEgMTkuMDMgMjQuMVExOS45OCAyNC4xIDIwLjcyIDIzLjU1UTIxLjQ2IDIzIDIxLjg5IDIxLjkzUTIyLjMzIDIwLjg2IDIyLjMzIDE5LjMyUTIyLjMzIDE2Ljc4IDIxLjUgMTUuNzZRMjAuNjcgMTQuNzMgMTkuNDIgMTQuNzNRMTguODEgMTQuNzMgMTguMjEgMTUuMDRRMTcuNjIgMTUuMzQgMTcuMiAxNS44NVExNi43OCAxNi4zNSAxNi42NiAxNi45M0wxNi40OSAxNi4yNkwxNi42NiAxNS4xM1ExNy4wMSAxMy43NyAxNy41OCAxMi44MlExOC4xNSAxMS44NyAxOS4wNyAxMS4zNlEyMCAxMC44NSAyMS4zOCAxMC44NVEyMi44OSAxMC44NSAyNC4xNyAxMS44MVEyNS40NSAxMi43NyAyNi4yNCAxNC42NVEyNy4wMiAxNi41MyAyNy4wMiAxOS4zMVEyNy4wMiAyMS45OCAyNi4xNiAyMy45M1EyNS4zIDI1Ljg4IDIzLjg0IDI2Ljk0UTIyLjM3IDI4IDIwLjU0IDI4Wk0xMS45OCAyNy44VjRIMTYuNjZWMTIuMzFWMjMuMDFMMTYuNTMgMjMuODVMMTYuNDkgMjQuOTVMMTYuMjYgMjcuOFoiIC8+PC9zdmc+)](https://bobbyhuang.dev)
 [![Email](https://img.shields.io/badge/Email-1a1c1a?style=for-the-badge&logo=gmail&logoColor=white)](mailto:bobbyhuang.dev@gmail.com)
 [![YouTube](https://img.shields.io/badge/YouTube-1a1c1a?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/@itzmolder)
 
 </div>
-
-<br>
 
 ## About
 
@@ -22,28 +20,23 @@ The projects below exist because I wanted the thing and it did not exist in the 
 The part I care about most is not the feature list. It is the release, the README, and the first
 five minutes of using the thing.
 
-<br>
-
 ## Projects
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🌅 <a href="https://github.com/bobbyhuang-dev/hourglow">hourglow</a></h3>
-      <p><em>A macOS wallpaper scheduler that follows the daylight.</em></p>
-      <p>macOS Tahoe stopped rotating its dynamic wallpapers through the day. HourGlow brings that back and generalises it: any number of time slots, each bound to a wallpaper, triggered by clock time, sunrise/sunset offsets, or solar phases. Sun times are computed on-device with the NOAA algorithm, so nothing touches the network.</p>
-      <p><code>Swift 6.3</code> <code>SwiftUI</code> <code>zero dependencies</code> <code>&lt; 5 MB</code></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🍅 <a href="https://github.com/bobbyhuang-dev/marzano">marzano</a></h3>
-      <p><em>A local-first task list with a built-in Pomodoro timer.</em> <a href="https://marzano.bobbyhuang.dev">Try it →</a></p>
-      <p>Tasks with due dates, colour-coded tags, and a Pomodoro timer credited to the task you pick. Runs entirely in the browser: no account, no server, no network calls. The timer is rebuilt from wall-clock time, so it survives reloads, backgrounded tabs, and a sleeping machine.</p>
-      <p><code>React 19</code> <code>TypeScript</code> <code>Vite</code> <code>Tailwind v4</code> <code>Cloudflare Workers</code></p>
-    </td>
-  </tr>
-</table>
+### 🌅 [hourglow](https://github.com/bobbyhuang-dev/hourglow)
 
-<br>
+*A macOS wallpaper scheduler that follows the daylight.*
+
+macOS Tahoe stopped rotating its dynamic wallpapers through the day. HourGlow brings that back and generalises it: any number of time slots, each bound to a wallpaper, triggered by clock time, sunrise/sunset offsets, or solar phases. Sun times are computed on-device with the NOAA algorithm, so nothing touches the network.
+
+`Swift 6.3` `SwiftUI` `zero dependencies` `< 5 MB`
+
+### 🍅 [marzano](https://github.com/bobbyhuang-dev/marzano)
+
+*A local-first task list with a built-in Pomodoro timer.* [Try it →](https://marzano.bobbyhuang.dev)
+
+Tasks with due dates, colour-coded tags, and a Pomodoro timer credited to the task you pick. Runs entirely in the browser: no account, no server, no network calls. The timer is rebuilt from wall-clock time, so it survives reloads, backgrounded tabs, and a sleeping machine.
+
+`React 19` `TypeScript` `Vite` `Tailwind v4` `Cloudflare Workers`
 
 ## Now
 
@@ -52,8 +45,6 @@ five minutes of using the thing.
 1. **Learning ML from the mathematics up**, not from the framework down. Right now that means calculus and NumPy, so array code stops being something I copy and starts being something I can read.
 2. **Keeping marzano and hourglow installable** by somebody who is not me. Releases, READMEs, onboarding.
 3. **Reading about OSINT and AI agents**, which is where I expect the next project to come from.
-
-<br>
 
 ## Toolbox
 
@@ -70,8 +61,6 @@ five minutes of using the thing.
 ![NumPy](https://img.shields.io/badge/NumPy-1a1c1a?style=flat-square&logo=numpy&logoColor=4DABCF)
 
 </div>
-
-<br>
 
 <div align="center">
 
