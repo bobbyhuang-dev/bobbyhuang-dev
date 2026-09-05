@@ -13,7 +13,9 @@
 
 ## About
 
-10th grade student at [BIPH](https://biph.basischina.com/) in Huizhou, Guangdong. Most of my attention goes to
+10th grade student at [BIPH](https://biph.basischina.com/) in Huizhou, Guangdong.
+My current focus is [**Intentum**](https://github.com/intentum-agent/intentum), an open-source
+tool for building products with AI agents inside Pi. My broader interests are
 **machine learning**, **OSINT**, and **AI agents**.
 
 The projects below exist because I wanted the thing and it did not exist in the shape I wanted it.
@@ -22,9 +24,15 @@ five minutes of using the thing.
 
 ## Projects
 
+### [intentum](https://github.com/intentum-agent/intentum)
+
+*A tool for building products with AI agents inside Pi. My current focus.*
+
+One agent handles the design conversation, while a separate agent carries out the implementation in its own Git worktree. A controller manages project state, pausing, recovery, and integrating the result. It is still in active development, with the current milestone focused on making that workflow reliable with a single implementation agent.
+
 ### 🌅 [hourglow](https://github.com/bobbyhuang-dev/hourglow)
 
-*A macOS wallpaper scheduler that follows the daylight.*
+*A macOS wallpaper scheduler that follows the daylight.* [Website →](https://hourglow.bobbyhuang.dev)
 
 macOS Tahoe stopped rotating its dynamic wallpapers through the day. HourGlow brings that back and generalises it: any number of time slots, each bound to a wallpaper, triggered by clock time, sunrise/sunset offsets, or solar phases. Sun times are computed on-device with the NOAA algorithm, so nothing touches the network.
 
@@ -40,11 +48,11 @@ Tasks with due dates, colour-coded tags, and a Pomodoro timer credited to the ta
 
 ## Now
 
-> updated 2026-08-31
+> updated 2026-09-05
 
-1. **Learning ML from the mathematics up**, not from the framework down. Right now that means calculus and NumPy, so array code stops being something I copy and starts being something I can read.
-2. **Keeping marzano and hourglow installable** by somebody who is not me. Releases, READMEs, onboarding.
-3. **Reading about OSINT and AI agents**, which is where I expect the next project to come from.
+1. **Focusing on Intentum**, making the handoff from a design conversation to implementation reliable, including pausing, recovering, and integrating changes.
+2. **Learning ML from the mathematics up**, not from the framework down. Right now that means calculus and NumPy, so array code stops being something I copy and starts being something I can read.
+3. **Keeping marzano and hourglow installable** by somebody who is not me. Releases, READMEs, onboarding.
 
 ## Toolbox
 
