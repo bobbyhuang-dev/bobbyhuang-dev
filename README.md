@@ -13,7 +13,6 @@
 
 ## About
 
-10th grade student at [BIPH](https://biph.basischina.com/) in Huizhou, Guangdong.
 My current focus is [**Intentum**](https://github.com/intentum-agent/intentum), an open-source
 tool for building products with AI agents inside Pi. My broader interests are
 **machine learning**, **OSINT**, and **AI agents**.
