@@ -13,8 +13,9 @@
 
 ## About
 
-My current focus is [**Intentum**](https://github.com/intentum-agent/intentum), an open-source
-tool for building products with AI agents inside Pi. My broader interests are
+My current focus is [**WallpaperMachine**](https://www.wallpapermachine.app)
+([source](https://github.com/WallpaperMachine/WallpaperMachine)), a native macOS app that plays
+Wallpaper Engine wallpapers live on your desktop. My broader interests are
 **machine learning**, **OSINT**, and **AI agents**.
 
 The projects below exist because I wanted the thing and it did not exist in the shape I wanted it.
@@ -23,9 +24,17 @@ five minutes of using the thing.
 
 ## Projects
 
+### 🖼️ [wallpapermachine](https://github.com/WallpaperMachine/WallpaperMachine)
+
+*Wallpaper Engine scene, video and web wallpapers, live on your Mac. My current focus.* [Website →](https://www.wallpapermachine.app)
+
+An independent native Mac app for Wallpaper Engine wallpapers, with Steam Workshop browsing and downloads built in through SteamCMD, so no Windows program ever runs. Every display gets its own wallpaper with its own scaling, frame rate and volume; wallpapers can react to music, pause when covered, throttle on battery, and (experimentally) animate the lock screen. Free signed build, GPL-2.0 source.
+
+`Swift` `AppKit` `Rust` `C++` `Metal` `Apple silicon`
+
 ### [intentum](https://github.com/intentum-agent/intentum)
 
-*A tool for building products with AI agents inside Pi. My current focus.*
+*A tool for building products with AI agents inside Pi.*
 
 One agent handles the design conversation, while a separate agent carries out the implementation in its own Git worktree. A controller manages project state, pausing, recovery, and integrating the result. It is still in active development, with the current milestone focused on making that workflow reliable with a single implementation agent.
 
@@ -47,9 +56,9 @@ Tasks with due dates, colour-coded tags, and a Pomodoro timer credited to the ta
 
 ## Now
 
-> updated 2026-09-05
+> updated 2026-09-27
 
-1. **Focusing on Intentum**, making the handoff from a design conversation to implementation reliable, including pausing, recovering, and integrating changes.
+1. **Focusing on WallpaperMachine**, pushing Wallpaper Engine compatibility on the Mac: scene rendering, per-display control, and staying light on battery.
 2. **Learning ML from the mathematics up**, not from the framework down. Right now that means calculus and NumPy, so array code stops being something I copy and starts being something I can read.
 3. **Keeping marzano and hourglow installable** by somebody who is not me. Releases, READMEs, onboarding.
 
@@ -58,6 +67,7 @@ Tasks with due dates, colour-coded tags, and a Pomodoro timer credited to the ta
 <div align="center">
 
 ![Swift](https://img.shields.io/badge/Swift-1a1c1a?style=flat-square&logo=swift&logoColor=F05138)
+![Rust](https://img.shields.io/badge/Rust-1a1c1a?style=flat-square&logo=rust&logoColor=DEA584)
 ![TypeScript](https://img.shields.io/badge/TypeScript-1a1c1a?style=flat-square&logo=typescript&logoColor=3178C6)
 ![React](https://img.shields.io/badge/React-1a1c1a?style=flat-square&logo=react&logoColor=61DAFB)
 ![Astro](https://img.shields.io/badge/Astro-1a1c1a?style=flat-square&logo=astro&logoColor=BC52EE)
